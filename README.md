@@ -24,67 +24,67 @@ portfolio/
 
 ---
 
+
 ## ✨ Features
 
-- **Responsive Design:** Looks great on all devices.
-- **Dark/Light Mode:** Toggle theme with a single click.
-- **Hero Section:** Profile image, intro, and social links.
-- **About Me:** Education, experience, and stats.
-- **Skills:** Technical and soft skills.
-- **Projects:** Featured projects with tech stack.
-- **Certifications:** Relevant certifications.
-- **Contact:** Email, phone, location, and social links.
-- **SEO Optimized:** Meta tags for better search and sharing.
+- **Responsive Design:** Mobile-first layout for all screen sizes
+- **Dark/Light Mode:** Toggle with persistent theme preference
+- **Hero Section:** Intro with profile image and social links
+- **About Me:** Background, education, and brief bio
+- **Skills:** Technical stack and soft skills
+- **Projects:** Highlighted work with tech used
+- **Certifications:** Listed with context
+- **Contact:** Email, GitHub, LinkedIn, and location info
+- **SEO Optimized:** Meta tags for better link previews
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Font Awesome** (icons)
-- **Google Fonts**
+- `HTML5`
+- `CSS3` (Flexbox, Grid, Variables, Keyframes)
+- `Vanilla JavaScript`
+- `Font Awesome` (Icons)
+- `Google Fonts`
 
 ---
 
-## 📄 How to Use
+## 🧰 Getting Started
 
-1. **Clone the repository:**
-    ```sh
+1. **Clone the repository**
+    ```bash
     git clone https://github.com/snehashis842/portfolio.git
     cd portfolio
     ```
 
-2. **Open `index.html` in your browser**  
-   or use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
+2. **Open `index.html` in a browser**  
+   Or use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
 
-3. **Customize:**  
-   - Update `assets/Dp.jpeg` with your own photo.
-   - Edit `index.html`, `styles.css`, and `script.js` as needed.
+3. **Customize for yourself**
+   - Replace `Dp.jpeg` with your profile photo in `/assets/`
+   - Edit `index.html`, `styles.css`, and `script.js` to update content
 
 ---
 
-## 🌐 Deploying
+## 🌍 Deploying on GitHub Pages
 
-You can deploy this portfolio using [GitHub Pages](https://pages.github.com/):
-
-1. Push your code to the `main` branch.
-2. In your repo, go to **Settings > Pages**.
-3. Set source to `main` branch and `/ (root)`.
-4. Your site will be live at:  
-   `https://snehashis842.github.io/portfolio/`
+1. Push your latest code to the `main` branch.
+2. Go to your GitHub repo → **Settings > Pages**
+3. Set source to `main` branch and `/ (root)`
+4. Your live site will be available at:  
+   👉 `https://snehashis842.github.io/portfolio/`
 
 ---
 
 ## 📬 Contact
 
-- **Email:** [dassnehashis2001@gmail.com](https://mail.google.com/mail/?view=cm&to=dassnehashis2001@gmail.com)
-- **LinkedIn:** [snehashisdas-](https://www.linkedin.com/in/snehashisdas-/)
-- **GitHub:** [snehashis842](https://github.com/snehashis842)
+- 📧 [dassnehashis2001@gmail.com](mailto:dassnehashis2001@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/snehashisdas-/)
+- 🐙 [GitHub](https://github.com/snehashis842)
 
 ---
 
-## 📝 License
+## 📄 License
 
-This project is open source and free to use for personal
+This project is open-source and free to use for personal or educational purposes.
+
