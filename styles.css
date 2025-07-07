@@ -268,6 +268,12 @@ section {
     color: var(--primary-color);
 }
 
+.nav-link.active {
+    color: var(--primary-color); /* or any highlight color */
+    font-weight: bold;
+    border-bottom: 2px solid var(--primary-color); /* optional underline */
+}
+
 .nav-link::after {
     content: '';
     position: absolute;
@@ -411,6 +417,26 @@ section {
     font-weight: 600;
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
+    /* No animation here, handled by JS */
+}
+
+.hero-subtitle::after {
+    content: '|';
+    animation: blink 1s steps(1) infinite;
+    color: var(--primary-color);
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
 }
 
 .hero-description {
@@ -1198,6 +1224,23 @@ section {
     }
 }
 
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    .profile-card {
+        width: 110px;
+        height: 110px;
+    }
+    .hero-title {
+        font-size: 1.3rem;
+    }
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+    .section-title {
+        font-size: 1.1rem;
+    }
+}
+
 /* Tablet Styles */
 @media (min-width: 769px) and (max-width: 1024px) {
     /* Navigation */
@@ -1252,6 +1295,15 @@ section {
     .contact-methods {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
+}
+
+/* Highlight the active section */
+.section-active {
+    box-shadow: 0 0 0 4px var(--primary-color);
+    border-radius: var(--border-radius);
+    z-index: 1;
+    position: relative;
+    transition: box-shadow 0.3s;
 }
 
 /* ==========================================
