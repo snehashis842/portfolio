@@ -228,7 +228,7 @@ section {
 .nav-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 var(--container-padding);
+    padding: 0 10px;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -296,7 +296,7 @@ section {
 .theme-toggle {
     display: flex;
     align-items: center;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 
 #theme-toggle-btn {
